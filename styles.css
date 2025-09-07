@@ -1,0 +1,95 @@
+body{
+    background: rgb(197, 222, 188);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: rgb(140, 186, 164);
+    padding: 20px;
+}
+nav li {
+    display: inline-block;
+    margin-left: 20px
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li:first-child{
+    margin-left: 0;
+}
+li:hover{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+
+
+.selection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.selection li {
+    display: inline-block;
+    padding: 0 50px;
+}
+.selection-top{
+    background: rgb(140, 186, 164);
+    transform: rotate(-2.66deg);
+    margin-bottom: 60px;
+}
+.selection-bottom{
+    background: rgb(236, 255, 224);
+    transform: rotate(2.65deg);
+}
+
+
+.project-box{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: row;
+}
+.project-box div {
+    background: rgb(236, 255, 224);
+    width: 318px;
+    height: 198px;
+    margin: auto;
+}
+
+.about-me{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: row;
+}
+.about-me div{
+    margin: auto;
+    text-align: center;
+    height: 400px;
+}
+.fav-games{
+    width: 25%;
+    background: rgb(236, 180, 95);
+}
+.fav-games ul il{
+    display: list-item;
+    padding: 40px;
+}
+.me{
+    width: 48%;
+    background: rgb(140, 186, 164);
+}
+.image-of-me{
+    width: 25%;
+    background: rgb(236, 255, 224);
+}
+
+
+footer{
+    background: rgb(140, 186, 164);
+    padding: 22px;
+}
