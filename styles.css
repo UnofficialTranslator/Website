@@ -4,14 +4,17 @@ body{
     margin: 0 10%;
     padding: 0;
 }
+
+
 nav{
     background: rgb(140, 186, 164);
     padding: 20px;
     margin: 0 -13%;
+    text-align: center;
 }
 nav li {
     display: inline-block;
-    margin-left: 20px
+    margin-left: 20px;
 }
 
 
@@ -19,9 +22,6 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-}
-li:first-child{
-    margin-left: 0;
 }
 li:hover{
     background-color: black;
@@ -38,21 +38,32 @@ a{
 .selection{
     margin-top: 50px;
     margin-bottom: 50px;
+    
 }
 .selection li {
     display: inline-block;
-    padding: 0 50px;
+    margin-left: 1%;
 }
 .selection-top{
     background: rgb(140, 186, 164);
-    transform: rotate(-2.66deg);
-    margin: 0 -13%;
-    margin-bottom: 60px;
+    -transform: rotate(-2.66deg);
+    margin-left: -13%;
+    margin-right: -13%;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    margin-top: 50px;
+    white-space: nowrap;
 }
 .selection-bottom{
     background: rgb(236, 255, 224);
-    transform: rotate(2.65deg);
-    margin: 0 -13%;
+    -transform: rotate(2.65deg);
+    margin-left: -13%;
+    margin-right: -13%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    white-space: nowrap;
 }
 
 
@@ -60,6 +71,7 @@ a{
     padding: 30px 20px;
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 .project-box div {
     background: rgb(236, 255, 224);
@@ -68,8 +80,9 @@ a{
     margin: auto;
 }
 
+
 .about-me{
-    padding: 30px 20px;
+    padding: 10% 5%;
     display: flex;
     flex-direction: row;
 }
@@ -100,9 +113,9 @@ footer{
     background: rgb(140, 186, 164);
     padding: 22px;
     margin: 0 -13%;
+    text-align: center;
 }
-footer ul{
+footer li{
     display: inline-block;
-    margin: 0;
-    margin-left: 20px
+    margin-left: 20px;
 }
