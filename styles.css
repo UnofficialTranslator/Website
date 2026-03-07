@@ -1,6 +1,26 @@
+h1{
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 400;
+    font-size: 8rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h2{
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 300;
+    font-size: 6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h3{
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
 body{
     background: rgb(197, 222, 188);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Varela Round", sans-serif;
     margin: 0 10%;
     padding: 0;
 }
@@ -24,7 +44,7 @@ ul {
     list-style-type: none;
 }
 li:hover{
-    background-color: black;
+    background-color: rgb(34, 214, 58);
 }
 a{
     text-decoration: none;
